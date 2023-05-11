@@ -1,0 +1,20 @@
+@import "colors";
+
+.homiepage {
+  color: black;
+  text-align: right;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #ffffff, $first);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+p {
+  color: black;
+}

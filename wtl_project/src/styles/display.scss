@@ -1,0 +1,27 @@
+@import "colors";
+
+.imghoodie{
+    position: relative;
+
+}
+
+.memetext{
+    position: absolute;
+    top: 190px;
+    left: 210px;
+    margin: 30px -47px;
+    text-align: center;
+    >.uppertext{
+        margin-bottom: 10px;
+        color:white;
+        font: 400 10rem ;
+    }
+    >img{
+        width:274px;
+    }
+    >.lowertext{
+        margin-top: 10px;
+        color:white;
+        font: 400 10rem;
+    }
+}
